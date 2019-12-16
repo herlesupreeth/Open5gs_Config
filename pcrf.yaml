@@ -28,6 +28,6 @@ pcrf:
           addr: 127.0.0.3
           port: 3868
         - identity: pcscf.ims.mnc001.mcc001.3gppnetwork.org
-          addr: 172.24.15.10
+          addr: 172.24.15.30
           port: 3871
         #    freeDiameter: /root/open5gs/install/etc/freeDiameter/pcrf.conf
