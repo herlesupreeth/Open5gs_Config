@@ -1,5 +1,5 @@
 logger:
-    file: /home/ubuntu/open5gs/install/var/log/open5gs/sgw.log
+    file: /root/open5gs/install/var/log/open5gs/sgw.log
 
 parameter:
     no_ipv6: true

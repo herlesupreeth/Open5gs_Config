@@ -1,7 +1,7 @@
 db_uri: mongodb://localhost/open5gs
 
 logger:
-    file: /home/ubuntu/open5gs/install/var/log/open5gs/hss.log
+    file: /root/open5gs/install/var/log/open5gs/hss.log
 
 parameter:
     no_ipv6: true
@@ -15,16 +15,16 @@ hss:
       sec_port: 5868
       listen_on: 127.0.0.4
       load_extension:
-        - module: /home/ubuntu/open5gs/install/lib/x86_64-linux-gnu/freeDiameter/dbg_msg_dumps.fdx
+        - module: /root/open5gs/install/lib/x86_64-linux-gnu/freeDiameter/dbg_msg_dumps.fdx
           conf: 0x8888
-        - module: /home/ubuntu/open5gs/install/lib/x86_64-linux-gnu/freeDiameter/dict_rfc5777.fdx
-        - module: /home/ubuntu/open5gs/install/lib/x86_64-linux-gnu/freeDiameter/dict_mip6i.fdx
-        - module: /home/ubuntu/open5gs/install/lib/x86_64-linux-gnu/freeDiameter/dict_nasreq.fdx
-        - module: /home/ubuntu/open5gs/install/lib/x86_64-linux-gnu/freeDiameter/dict_nas_mipv6.fdx
-        - module: /home/ubuntu/open5gs/install/lib/x86_64-linux-gnu/freeDiameter/dict_dcca.fdx
-        - module: /home/ubuntu/open5gs/install/lib/x86_64-linux-gnu/freeDiameter/dict_dcca_3gpp.fdx
+        - module: /root/open5gs/install/lib/x86_64-linux-gnu/freeDiameter/dict_rfc5777.fdx
+        - module: /root/open5gs/install/lib/x86_64-linux-gnu/freeDiameter/dict_mip6i.fdx
+        - module: /root/open5gs/install/lib/x86_64-linux-gnu/freeDiameter/dict_nasreq.fdx
+        - module: /root/open5gs/install/lib/x86_64-linux-gnu/freeDiameter/dict_nas_mipv6.fdx
+        - module: /root/open5gs/install/lib/x86_64-linux-gnu/freeDiameter/dict_dcca.fdx
+        - module: /root/open5gs/install/lib/x86_64-linux-gnu/freeDiameter/dict_dcca_3gpp.fdx
       connect:
         - identity: mme.epc.mnc001.mcc001.3gppnetwork.org
           addr: 127.0.0.2
           port: 3868
-        #    freeDiameter: /home/ubuntu/open5gs/install/etc/freeDiameter/hss.conf
+        #    freeDiameter: /root/open5gs/install/etc/freeDiameter/hss.conf

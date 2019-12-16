@@ -18,7 +18,7 @@ Open5gs Configuration files for IMS/VoLTE
 
 e.g:
 load_extension:
-        - module: /home/ubuntu/open5gs/install/lib/x86_64-linux-gnu/freeDiameter/dbg_msg_dumps.fdx
+        - module: /root/open5gs/install/lib/x86_64-linux-gnu/freeDiameter/dbg_msg_dumps.fdx
 .....
 
 - APN names
