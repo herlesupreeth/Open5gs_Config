@@ -24,4 +24,5 @@ load_extension:
 - APN names
 - UE pool IP addresses
 - P-CSCF address
+- Network interface name
 
