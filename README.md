@@ -10,11 +10,11 @@ Open5gs Configuration files for IMS/VoLTE
   +-----------+
 </pre>
 
-- OpenStack VM with ubuntu user and single interface (ens3)
+- OpenStack VM with root user and single interface (ens3)
 
 ## Modifications required for respective setups
 
-- Modify all module locations based on your installation. i.e.
+- Modify all module locations based on your installation.
 
 e.g:
 load_extension:
