@@ -2,8 +2,6 @@ logger:
     file: /root/open5gs/install/var/log/open5gs/pgw.log
 
 parameter:
-    no_ipv6: true
-    prefer_ipv4: true
 
 pgw:
     freeDiameter:
@@ -25,7 +23,6 @@ pgw:
         - identity: pcrf.epc.mnc001.mcc001.3gppnetwork.org
           addr: 127.0.0.5
           port: 3868
-        #    freeDiameter: /root/open5gs/install/etc/freeDiameter/pgw.conf
     gtpc:
       - addr: 127.0.0.3
       - addr: ::1
@@ -44,13 +41,10 @@ pgw:
       - addr: fd1f:76f3:da9b:0101::/64
         apn: ims
         dev: ogstun2
-        #    ue_pool:
-        #      - addr: 45.45.0.1/16
-        #      - addr: cafe::1/64
     dns:
       - 8.8.8.8
       - 8.8.4.4
-        #      - 2001:4860:4860::8888
-        #      - 2001:4860:4860::8844
+      - 2001:4860:4860::8888
+      - 2001:4860:4860::8844
     p-cscf:
       - 10.4.128.21

@@ -4,8 +4,6 @@ logger:
     file: /root/open5gs/install/var/log/open5gs/pcrf.log
 
 parameter:
-    no_ipv6: true
-    prefer_ipv4: true
 
 pcrf:
     freeDiameter:
@@ -30,4 +28,3 @@ pcrf:
         - identity: pcscf.ims.mnc001.mcc001.3gppnetwork.org
           addr: 10.4.128.21
           port: 3871
-        #    freeDiameter: /root/open5gs/install/etc/freeDiameter/pcrf.conf

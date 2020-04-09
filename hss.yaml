@@ -4,8 +4,6 @@ logger:
     file: /root/open5gs/install/var/log/open5gs/hss.log
 
 parameter:
-    no_ipv6: true
-    prefer_ipv4: true
 
 hss:
     freeDiameter:
@@ -27,4 +25,3 @@ hss:
         - identity: mme.epc.mnc001.mcc001.3gppnetwork.org
           addr: 127.0.0.2
           port: 3868
-        #    freeDiameter: /root/open5gs/install/etc/freeDiameter/hss.conf
