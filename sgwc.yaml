@@ -1,0 +1,15 @@
+logger:
+    file: /root/open5gs/install/var/log/open5gs/sgwc.log
+
+parameter:
+    no_ipv6: true
+
+sgwc:
+    gtpc:
+      - addr: 127.0.0.2
+    pfcp:
+      - addr: 127.0.0.2
+
+sgwu:
+    pfcp:
+      - addr: 127.0.0.9

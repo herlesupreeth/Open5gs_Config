@@ -43,13 +43,14 @@ mme:
         ciphering_order : [ EEA0, EEA1, EEA2 ]
     network_name:
         full: Open5GS
+    mme_name: open5gs-mme0
 
-sgw:
+sgwc:
     gtpc:
       addr: 127.0.0.2
 
-pgw:
+smf:
     gtpc:
-      addr:
+      - addr:
         - 127.0.0.3
         - ::1

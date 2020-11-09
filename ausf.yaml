@@ -1,0 +1,18 @@
+logger:
+    file: /root/open5gs/install/var/log/open5gs/ausf.log
+
+parameter:
+    no_ipv6: true
+    prefer_ipv4: true
+
+ausf:
+    sbi:
+      - addr: 127.0.0.8
+        port: 7777
+
+nrf:
+    sbi:
+      - addr:
+          - 127.0.0.7
+          - ::1
+        port: 7777

@@ -1,0 +1,15 @@
+logger:
+    file: /root/open5gs/install/var/log/open5gs/sgwu.log
+
+parameter:
+    no_ipv6: true
+
+sgwu:
+    gtpu:
+      dev: ens3
+    pfcp:
+      - addr: 127.0.0.9
+
+sgwc:
+    pfcp:
+      - addr: 127.0.0.2
