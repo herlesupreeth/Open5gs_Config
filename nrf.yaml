@@ -2,8 +2,6 @@ logger:
     file: /root/open5gs/install/var/log/open5gs/nrf.log
 
 parameter:
-    no_ipv6: true
-    prefer_ipv4: true
 
 nrf:
     sbi:
