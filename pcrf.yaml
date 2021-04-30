@@ -11,7 +11,7 @@ pcrf:
       realm: epc.mnc001.mcc001.3gppnetwork.org
       port: 3868
       sec_port: 5868
-      listen_on: 127.0.0.5
+      listen_on: 127.0.0.9
       load_extension:
         - module: /root/open5gs/install/lib/x86_64-linux-gnu/freeDiameter/dbg_msg_dumps.fdx
           conf: 0x8888
@@ -23,7 +23,7 @@ pcrf:
         - module: /root/open5gs/install/lib/x86_64-linux-gnu/freeDiameter/dict_dcca_3gpp.fdx
       connect:
         - identity: smf.epc.mnc001.mcc001.3gppnetwork.org
-          addr: 127.0.0.3
+          addr: 127.0.0.4
           port: 3868
         - identity: pcscf.ims.mnc001.mcc001.3gppnetwork.org
           addr: 10.4.128.21

@@ -11,7 +11,7 @@ hss:
       realm: epc.mnc001.mcc001.3gppnetwork.org
       port: 3868
       sec_port: 5868
-      listen_on: 127.0.0.4
+      listen_on: 127.0.0.8
       load_extension:
         - module: /root/open5gs/install/lib/x86_64-linux-gnu/freeDiameter/dbg_msg_dumps.fdx
           conf: 0x8888

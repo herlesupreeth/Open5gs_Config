@@ -5,10 +5,10 @@ parameter:
 
 amf:
     sbi:
-      - addr: 127.0.0.6
+      - addr: 127.0.0.5
         port: 7777
     ngap:
-      - addr: 127.0.0.6
+      - addr: 127.0.0.5
     guami:
       - plmn_id:
           mcc: 001
@@ -37,6 +37,6 @@ amf:
 nrf:
     sbi:
       - addr:
-          - 127.0.0.7
+          - 127.0.0.10
           - ::1
         port: 7777

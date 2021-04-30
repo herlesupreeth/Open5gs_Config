@@ -5,12 +5,12 @@ parameter:
 
 udm:
     sbi:
-      - addr: 127.0.0.11
+      - addr: 127.0.0.12
         port: 7777
 
 nrf:
     sbi:
       - addr:
-          - 127.0.0.7
+          - 127.0.0.10
           - ::1
         port: 7777

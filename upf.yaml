@@ -5,10 +5,10 @@ parameter:
 
 upf:
     pfcp:
-      - addr: 127.0.0.10
+      - addr: 127.0.0.7
     gtpu:
-      - addr: 127.0.0.10
-    pdn:
+      - addr: 127.0.0.7
+    subnet:
       - addr: 192.168.100.1/24
         dev: ogstun
         apn: internet
@@ -24,4 +24,4 @@ upf:
 
 smf:
     pfcp:
-      - addr: 127.0.0.3
+      - addr: 127.0.0.4
