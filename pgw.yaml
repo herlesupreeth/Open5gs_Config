@@ -32,13 +32,13 @@ pgw:
     ue_pool:
       - addr: 192.168.100.1/24
         dev: ogstun
-      - addr: fd84:6aea:c36e:2b69::/64 
+      - addr: fd84:6aea:c36e:2b69::/48
         dev: ogstun
         apn: internet
       - addr: 192.168.101.1/24
         apn: ims
         dev: ogstun2
-      - addr: fd1f:76f3:da9b:0101::/64
+      - addr: fd1f:76f3:da9b:0101::/48
         apn: ims
         dev: ogstun2
     dns:
